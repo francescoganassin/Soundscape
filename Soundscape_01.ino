@@ -163,10 +163,17 @@ sine4.amplitude(0.15);
 
 //waveform9
 waveform9.begin(WAVEFORM_SINE);
-waveform9.frequency(698);
+waveform9.frequency(698.6);
 waveform9.amplitude(0.25);
 sine11.frequency(0.017);
 sine11.amplitude(0.10);
+
+//waveform6
+waveform6.begin(WAVEFORM_SINE);
+waveform6.frequency(830.6);
+waveform6.amplitude(0.25);
+sine6.frequency(0.0029);
+sine6.amplitude(0.05);
 
 //waveform5
 waveform5.begin(WAVEFORM_SINE);
@@ -175,16 +182,16 @@ waveform5.amplitude(0.25);
 sine5.frequency(0.0069);
 sine5.amplitude(0.05);
 
-//windy pink noise here
 
-pink1.amplitude(0.18);
-pink2.amplitude(0.06);
+
+pink1.amplitude(0.20);
+pink2.amplitude(0.08);
 
 sine9.frequency(0.0074);
-sine9.amplitude(0.512);
+sine9.amplitude(0.6);
 
 sine10.frequency(0.026);
-sine10.amplitude(0.342);
+sine10.amplitude(0.3);
 
 // livelli mixer
   mixer1.gain(0, 0.5);
