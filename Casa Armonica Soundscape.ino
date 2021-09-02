@@ -8,6 +8,9 @@
  10 oscillators (sine and triangle variable)
  2 pink noise generator
  AM controlled 
+ 
+ works on teensy 4.0
+ with audio shield sgtl5000
 
  Agosto - Settembre 2021
  Francesco Ganassin
